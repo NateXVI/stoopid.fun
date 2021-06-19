@@ -30,6 +30,7 @@ div.title {
 	width: 80%;
 	max-width: 500px;
 	padding: 1em;
+	position: relative;
 
 	/* flex */
 	display: flex;
@@ -189,8 +190,8 @@ section.links {
 
 button.random {
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: -3px;
+	right: -3px;
 	justify-self: flex-end;
 	border: none;
 	border-radius: 5px 0 0 0;
