@@ -26,9 +26,10 @@ body {
 div.title {
 	/* positioning */
 	overflow: hidden;
-	margin: 5vh auto auto auto;
+	margin: 3vh auto auto auto;
 	width: 80%;
 	max-width: 500px;
+	padding: 1em;
 
 	/* flex */
 	display: flex;
@@ -88,6 +89,7 @@ div.description {
 	width: auto;
 	justify-self: flex-end;
 	text-align: end;
+	color: var(--highlight);
 }
 
 .card {
@@ -186,14 +188,22 @@ section.links {
 }
 
 button.random {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: 50%;
-	height: 50px;
-
-	background: var(--highlight);
+	justify-self: flex-end;
 	border: none;
+	border-radius: 5px 0 0 0;
+	color: white;
+	padding: 0.5em;
+	background: linear-gradient(90deg, #e66465, #9198e5);
+	transition: transform 0.2s;
+	transform-origin: bottom right;
+}
+
+button.random:hover {
+	cursor: pointer;
+	transform: scale(1.2);
 }
 
 /* if it is desktop */
