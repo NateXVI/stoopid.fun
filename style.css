@@ -167,6 +167,10 @@ div.flappy {
 	background: var(--highlight);
 }
 
+div.pokemon {
+	background: #77dd77;
+}
+
 img.flappy {
 	height: 100%;
 }
