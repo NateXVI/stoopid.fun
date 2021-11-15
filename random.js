@@ -2,6 +2,7 @@ const sites = [
 	'https://canvas.stoopid.fun',
 	'https://flappy.stoopid.fun',
 	'https://dvd.stoopid.fun',
+	'https://pokemon.stoopid.fun',
 ];
 
 const button = document.querySelector('button.random');
