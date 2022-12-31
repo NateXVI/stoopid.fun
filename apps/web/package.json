@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@stoopid/flappybird": "*",
 		"daisyui": "^2.46.0"
 	}
 }

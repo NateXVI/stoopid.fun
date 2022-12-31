@@ -5,9 +5,9 @@
 
 <div class="mx-auto w-full max-w-5xl p-4">
 	<header
-		class="glow bg-base-300 border-info relative flex flex-wrap items-center justify-center gap-10 rounded-xl border p-10"
+		class="glow bg-base-300 border-info relative flex transform flex-wrap items-center justify-center gap-10 rounded-xl border p-10 transition-transform duration-200 active:scale-110"
 	>
-		<img src="/images/icon.png" alt="stoopid emoji" class="spin h-auto w-20" />
+		<img src="/images/icon.png" alt="stoopid emoji" class="spin h-auto w-20 select-none" />
 		<div class="text-center">
 			<h1 class="text-5xl font-bold">stoopid.fun</h1>
 			<p class="text-primary">stoopid sites that you will enjoy</p>
@@ -20,8 +20,9 @@
 			src="/images/flappy.gif"
 			title="flappy bird clone"
 			description="flappy bird clone with an online leaderboard"
-			href="https://flappy.stoopid.fun"
+			href="/flappybird"
 			color="#ffeda3"
+			shouldReload
 		/>
 		<Card
 			src="/images/pokedex.gif"

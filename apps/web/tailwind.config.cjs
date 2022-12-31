@@ -4,7 +4,10 @@ const daisyui = require('daisyui');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		'./node_modules/@stoopid/*/src/**/*.{html,js,svelte,ts}'
+	],
 	theme: {
 		extend: {
 			fontFamily: {
