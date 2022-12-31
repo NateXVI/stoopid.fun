@@ -1,0 +1,17 @@
+{
+	"name": "Flappy Bird",
+	"short_name": "Flappy Bird",
+	"description": "Flappy Bird clone",
+	"id": "flappybird",
+	"icons": [
+		{
+			"src": "/flappybird/icon_512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/flappybird",
+	"display": "standalone",
+	"orientation": "portrait",
+	"scope": "/flappybird"
+}
