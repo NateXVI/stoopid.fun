@@ -22,7 +22,6 @@
 			description="flappy bird clone with an online leaderboard"
 			href="/flappybird"
 			color="#ffeda3"
-			shouldReload
 		/>
 		<Card
 			src="/images/pokedex.gif"

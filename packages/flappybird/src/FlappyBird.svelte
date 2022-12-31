@@ -14,11 +14,7 @@
   <div
     class="mx-auto mb-5 flex max-w-[1200px] justify-between gap-5 rounded bg-gray-50 p-4"
   >
-    <a
-      href="../"
-      data-sveltekit-reload
-      class="flex gap-2 text-gray-600 hover:underline"
-    >
+    <a href="../" class="flex gap-2 text-gray-600 hover:underline">
       <Icon src={Home} class="h-5 w-5" />
       Back to stoopid.fun</a
     >

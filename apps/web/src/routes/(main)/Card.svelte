@@ -4,10 +4,9 @@
 	export let description: string;
 	export let href: string;
 	export let color: string;
-	export let shouldReload: boolean = false;
 </script>
 
-<a href="{href}" data-sveltekit-reload="{shouldReload ? true : 'off'}">
+<a href="{href}">
 	<div
 		class="card grid aspect-[2/3] w-full max-w-md grid-rows-6 overflow-hidden rounded-3xl"
 		style="background-color: {color};"
